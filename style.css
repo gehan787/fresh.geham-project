@@ -1,0 +1,135 @@
+nav .button{
+    background-color: #f39200;
+}
+.section-1{
+    margin-top: -100px;
+}
+.hero{
+    padding-top: 100px;
+}
+.hero-foot{
+    padding-top: 80px;
+}
+.border{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    color: #6a7b96;
+    transition: all .4s;
+}
+.border:hover{
+    transform: translateY(-6px);
+    color: #f39200;
+
+}
+.backimg{
+    background-image: url(https://source.unsplash.com/g30P1zcOzXo/1600x900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1700px;
+    margin-left: -200px;
+}
+#rounded{
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#flex{
+    position: relative;
+    top: 50px;
+}
+.sec-form{
+    background-color: #EFF4F7;
+}
+
+#footer-dark{
+    background-color: #444F60;
+}
+#list-color{
+    color: #98a9c3;
+}
+#icon-hover{
+    color: #f39200;
+    transition: all .5s;
+}
+#icon-hover:hover{
+    color: white;
+
+}
+.img{
+    max-width: 100%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    right: 60%;
+    top: -15px
+}
+.h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #444f60;
+    position: absolute;
+    left: 40%;
+    top: -10px;
+    
+}
+.position{
+    position: relative;
+}
+.span{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+#box-shadow{
+    transition: all 0.5s;
+    
+}
+#box-shadow:hover{
+    opacity: 0.6;
+}
+.fa-sharp{
+    position: relative;
+    top: -10px;
+    left: -20px;
+    font-size:35px;
+    color:lightgrey
+}
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 20%;
+    left: 97%;
+   width: 40px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #f39200;
+    border-radius: 4px;
+    margin-right: 2px;
+    border: solid 1px #f39200;
+    transition: background-color 12s ease;
+    color: #EFF4F7;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+    border: solid 1px lightgrey;
+  }
+  .contact-icons .contact-icon img {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+}
